@@ -1,0 +1,14 @@
+
+> buku-servis-motor@2.1.0 build
+> vite build
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 2129 modules transformed.
+rendering chunks...
+computing gzip size...
+web-dist/index.html                   0.73 kB │ gzip:  0.43 kB
+web-dist/assets/index-CQCs__Tx.css   83.75 kB │ gzip: 17.48 kB
+web-dist/assets/index-CxbpW6_X.js   293.78 kB │ gzip: 90.04 kB
+
+✓ built in 670ms

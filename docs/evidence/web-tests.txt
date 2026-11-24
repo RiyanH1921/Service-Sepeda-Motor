@@ -1,0 +1,120 @@
+
+> buku-servis-motor@2.0.0 test
+> node --disable-warning=ExperimentalWarning --test tests/domain.test.js tests/server.test.js
+
+TAP version 13
+# Pencarian 1.000 kunjungan: 20/20, maksimum 0.87 ms.
+# Subtest: pelat unik mengabaikan kapital dan spasi
+ok 1 - pelat unik mengabaikan kapital dan spasi
+  ---
+  duration_ms: 2.4543
+  ...
+# Subtest: nol berbeda dari kosong; bilangan negatif, pecahan dan tidak aman ditolak
+ok 2 - nol berbeda dari kosong; bilangan negatif, pecahan dan tidak aman ditolak
+  ---
+  duration_ms: 0.2756
+  ...
+# Subtest: nota lama dan Simpan berulang tidak menggantikan kunjungan terbaru
+ok 3 - nota lama dan Simpan berulang tidak menggantikan kunjungan terbaru
+  ---
+  duration_ms: 9.8521
+  ...
+# Subtest: tanggal sama mengurutkan waktu dibuat terbaru dan mempertahankan waktu saat koreksi
+ok 4 - tanggal sama mengurutkan waktu dibuat terbaru dan mempertahankan waktu saat koreksi
+  ---
+  duration_ms: 0.2528
+  ...
+# Subtest: pencarian OLI tidak membedakan kapital dan hasil banyak pekerjaan tetap satu kunjungan
+ok 5 - pencarian OLI tidak membedakan kapital dan hasil banyak pekerjaan tetap satu kunjungan
+  ---
+  duration_ms: 0.2549
+  ...
+# Subtest: validasi tanggal, pekerjaan dan biaya tidak menghapus formulir masukan
+ok 6 - validasi tanggal, pekerjaan dan biaya tidak menghapus formulir masukan
+  ---
+  duration_ms: 0.3226
+  ...
+# Subtest: pembaruan odometer manual tidak boleh turun; nilai sama diterima
+ok 7 - pembaruan odometer manual tidak boleh turun; nilai sama diterima
+  ---
+  duration_ms: 6.1474
+  ...
+# Subtest: pengingat membutuhkan target dan satu komponen aktif per motor
+ok 8 - pengingat membutuhkan target dan satu komponen aktif per motor
+  ---
+  duration_ms: 0.7705
+  ...
+# Subtest: status pengingat pada 10, 11, dan 18 Januari serta batas 16.499 / 16.500
+ok 9 - status pengingat pada 10, 11, dan 18 Januari serta batas 16.499 / 16.500
+  ---
+  duration_ms: 0.5891
+  ...
+# Subtest: notifikasi menghormati waktu lokal, status, duplikasi dan sakelar
+ok 10 - notifikasi menghormati waktu lokal, status, duplikasi dan sakelar
+  ---
+  duration_ms: 5.5416
+  ...
+# Subtest: CSV UTF-8 mempertahankan kutip, koma, baris baru, biaya nol dan dua pekerjaan
+ok 11 - CSV UTF-8 mempertahankan kutip, koma, baris baru, biaya nol dan dua pekerjaan
+  ---
+  duration_ms: 1.4466
+  ...
+# Subtest: CSV menolak judul salah, kolom salah, kutip rusak dan melaporkan baris fisik
+ok 12 - CSV menolak judul salah, kolom salah, kutip rusak dan melaporkan baris fisik
+  ---
+  duration_ms: 0.2506
+  ...
+# Subtest: impor rusak membatalkan seluruh perubahan termasuk kendaraan baru
+ok 13 - impor rusak membatalkan seluruh perubahan termasuk kendaraan baru
+  ---
+  duration_ms: 0.7385
+  ...
+# Subtest: konflik metadata pada ID sama membatalkan impor
+ok 14 - konflik metadata pada ID sama membatalkan impor
+  ---
+  duration_ms: 0.5947
+  ...
+# Subtest: transaksi gagal mempertahankan data lama utuh
+ok 15 - transaksi gagal mempertahankan data lama utuh
+  ---
+  duration_ms: 0.3687
+  ...
+# Subtest: 1.000 kunjungan dapat dicari 20 kali dalam batas satu detik
+ok 16 - 1.000 kunjungan dapat dicari 20 kali dalam batas satu detik
+  ---
+  duration_ms: 21.4486
+  ...
+# Subtest: data contoh hanya dimuat saat garasi kosong
+ok 17 - data contoh hanya dimuat saat garasi kosong
+  ---
+  duration_ms: 0.6901
+  ...
+# Subtest: API menyimpan kendaraan dan banyak pekerjaan, mencegah duplikat dan menolak koreksi tidak valid
+ok 18 - API menyimpan kendaraan dan banyak pekerjaan, mencegah duplikat dan menolak koreksi tidak valid
+  ---
+  duration_ms: 64.8557
+  ...
+# Subtest: SQLite mempertahankan kendaraan dan preferensi setelah server dibuka ulang
+ok 19 - SQLite mempertahankan kendaraan dan preferensi setelah server dibuka ulang
+  ---
+  duration_ms: 38.8429
+  ...
+# Subtest: ekspor / impor API bisa dipulihkan dan impor CSV rusak tidak menambah data
+ok 20 - ekspor / impor API bisa dipulihkan dan impor CSV rusak tidak menambah data
+  ---
+  duration_ms: 18.7446
+  ...
+# Subtest: mutasi dari situs lain dan body bukan JSON ditolak
+ok 21 - mutasi dari situs lain dan body bukan JSON ditolak
+  ---
+  duration_ms: 8.5649
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 229.3918

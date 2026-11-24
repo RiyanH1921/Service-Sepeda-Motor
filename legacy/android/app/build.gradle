@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'id.riyan.bukuservis'
+    compileSdk 35
+    buildToolsVersion '35.0.1'
+    useLibrary 'android.test.runner'
+    useLibrary 'android.test.base'
+
+    defaultConfig {
+        applicationId 'id.riyan.bukuservis'
+        minSdk 29
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+        testInstrumentationRunner 'id.riyan.bukuservis.TestRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    testOptions { unitTests.returnDefaultValues = true }
+}
+
+dependencies { testImplementation 'junit:junit:4.13.2' }

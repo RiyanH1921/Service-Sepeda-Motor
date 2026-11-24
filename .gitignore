@@ -1,0 +1,17 @@
+.gradle/
+.gradle-home/
+.tools/
+.preview/
+.idea/
+local.properties
+**/build/
+*.iml
+*.jks
+*.keystore
+node_modules/
+web-dist/
+data/
+playwright-report/
+test-results/
+.web-runtime/
+.npm-cache/

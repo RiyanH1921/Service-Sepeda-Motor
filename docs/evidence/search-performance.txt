@@ -1,0 +1,2 @@
+11-19 21:28:32.382  5223  5244 I BukuServisTest: Search 1000 visits: 20/20 <= 1s; max=28ms
+11-19 21:33:19.879  6135  6149 I BukuServisTest: Search 1000 visits: 20/20 <= 1s; max=26ms

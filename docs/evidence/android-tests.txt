@@ -1,0 +1,10 @@
+
+id.riyan.bukuservis.NotificationTest:.
+id.riyan.bukuservis.StoreTest:.............
+id.riyan.bukuservis.UiFlowTest:...
+Test results for TestRunner=.................
+Time: 5.922
+
+OK (17 tests)
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="id.riyan.bukuservis.DomainTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-19T14:28:04.388Z" hostname="BPG-240602065" time="0.016">
+  <properties/>
+  <testcase name="visitsRejectFutureOrNoJobs" classname="id.riyan.bukuservis.DomainTest" time="0.008"/>
+  <testcase name="reminderJanuaryBoundaries" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="csvReportsPhysicalLineAfterMultiline" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="zeroAndMissingDiffer" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="reminderKmBoundaryAndMissingReading" classname="id.riyan.bukuservis.DomainTest" time="0.0"/>
+  <testcase name="csvRejectsWrongColumnCount" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="csvRejectsBrokenQuotes" classname="id.riyan.bukuservis.DomainTest" time="0.0"/>
+  <testcase name="csvEscapesCommaQuotesAndNewlines" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="missingKmStillShowsDateUrgency" classname="id.riyan.bukuservis.DomainTest" time="0.0"/>
+  <testcase name="eitherTargetWins" classname="id.riyan.bukuservis.DomainTest" time="0.0"/>
+  <testcase name="csvRejectsExtraCharactersAfterQuote" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="plateNormalization" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <testcase name="reminderRequiresTarget" classname="id.riyan.bukuservis.DomainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

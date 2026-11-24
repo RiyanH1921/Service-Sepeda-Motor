@@ -1,0 +1,7 @@
+buildscript {
+    repositories {
+        if (file('.tools/maven').exists()) maven { url uri('.tools/maven') }
+        google(); mavenCentral()
+    }
+    dependencies { classpath 'com.android.tools.build:gradle:8.13.0' }
+}
